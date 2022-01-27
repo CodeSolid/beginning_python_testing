@@ -1,6 +1,6 @@
 """tests the myapp.greeter module"""
 
-from myapp.greeter import greet
+from mypackage.greeter import greet
 
 def test_greeter_returns_hello_world_if_no_name_provided():
     assert greet() == "Hello, World!"
